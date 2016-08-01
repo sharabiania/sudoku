@@ -7,13 +7,18 @@ import javax.swing.*;
 public class MainWindow extends JFrame {
 
     /**
+     * Size of the main window.
+     */
+    private static final int WindowSize = 400;
+
+    /**
      * Constructor.
      * Creates a new instance of {@link MainWindow}.
      */
     public MainWindow()
     {
         setTitle("SUDOKU");
-        setSize(400, 400);
+        setSize(WindowSize, WindowSize);
         setLocationRelativeTo(null);
     }
 
