@@ -4,7 +4,7 @@ import javax.swing.*;
 /**
  * Created by Ali Sharabiani on 2016-08-01.
  */
-public class MainWindow extends JFrame {
+public class MainView extends JFrame {
 
     /**
      * Size of the main window.
@@ -13,9 +13,9 @@ public class MainWindow extends JFrame {
 
     /**
      * Constructor.
-     * Creates a new instance of {@link MainWindow}.
+     * Creates a new instance of {@link MainView}.
      */
-    public MainWindow()
+    public MainView()
     {
         setTitle("SUDOKU");
         setSize(WindowSize, WindowSize);
