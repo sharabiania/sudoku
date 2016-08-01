@@ -50,7 +50,12 @@ public class MainView extends JFrame {
         {
             for(int j = 0; j < size; j++)
             {
-                panel.add(new JLabel(Integer.toString(model[i][j])));
+                JLabel label = new JLabel();
+                label.setText(Integer.toString(model[i][j]));
+                label.setBorder(BorderFactory.createLineBorder(Color.black));
+                label.setHorizontalAlignment(SwingConstants.CENTER);
+                label.setVerticalAlignment(SwingConstants.CENTER);
+                panel.add(label);
             }
         }
 
