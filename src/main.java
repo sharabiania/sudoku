@@ -1,5 +1,5 @@
 import sharabiani.model.SudokuModel;
-import sharabiani.view.;
+import sharabiani.view.MainView;
 
 /**
  * Created by Ali Sharabiani on 2016-08-01.
