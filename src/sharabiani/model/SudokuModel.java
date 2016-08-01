@@ -3,7 +3,7 @@ package sharabiani.model;
 /**
  * Created by Ali Sharabiani on 2016-08-01.
  */
-public class Sudoku {
+public class SudokuModel {
 
     /**
      * The sudoku board size.
@@ -17,9 +17,9 @@ public class Sudoku {
 
     /**
      * Constructor.
-     * Initializes a new instance of {@link Sudoku}
+     * Initializes a new instance of {@link SudokuModel}
      */
-    public Sudoku(){
+    public SudokuModel(){
         board = new int[BOARD_SIZE][BOARD_SIZE];
     }
 
