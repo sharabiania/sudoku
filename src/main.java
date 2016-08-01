@@ -1,7 +1,8 @@
-import sharabiani.MainFrame;
+import sharabiani.model.SudokuModel;
+import sharabiani.view.MainView;
 
 /**
- * Created by shara on 2016-08-01.
+ * Created by Ali Sharabiani on 2016-08-01.
  */
 public class main {
 
@@ -10,7 +11,9 @@ public class main {
      * @param args command line arguments.
      */
     public static void main(String args[]){
-        MainFrame frame = new MainFrame();
-        frame.showWindow();
+        SudokuModel model = new SudokuModel();
+        MainView frame = new MainView();
+
+        frame.showWindow(model.getBoard(), SudokuModel.BOARD_SIZE);
     }
 }
