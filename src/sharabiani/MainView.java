@@ -9,7 +9,7 @@ public class MainView extends JFrame {
     /**
      * Size of the main window.
      */
-    private static final int WindowSize = 400;
+    private static final int WINDOW_SIZE = 400;
 
     /**
      * Constructor.
@@ -18,7 +18,7 @@ public class MainView extends JFrame {
     public MainView()
     {
         setTitle("SUDOKU");
-        setSize(WindowSize, WindowSize);
+        setSize(WINDOW_SIZE, WINDOW_SIZE);
         setLocationRelativeTo(null);
     }
 
