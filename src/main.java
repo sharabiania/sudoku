@@ -1,4 +1,4 @@
-import sharabiani.MainFrame;
+import sharabiani.view.MainWindow;
 
 /**
  * Created by shara on 2016-08-01.
@@ -10,7 +10,7 @@ public class main {
      * @param args command line arguments.
      */
     public static void main(String args[]){
-        MainFrame frame = new MainFrame();
+        MainWindow frame = new MainWindow();
         frame.showWindow();
     }
 }

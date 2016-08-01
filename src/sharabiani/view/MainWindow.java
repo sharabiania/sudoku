@@ -1,16 +1,19 @@
-package sharabiani;
+package sharabiani.view;
+import sharabiani.model.Sudoku;
+
 import javax.swing.*;
+import java.awt.*;
 
 /**
  * Created by Ali Sharabiani on 2016-08-01.
  */
-public class MainFrame extends JFrame {
+public class MainWindow extends JFrame {
 
     /**
      * Constructor.
-     * Creates a new instance of {@link MainFrame}.
+     * Creates a new instance of {@link MainWindow}.
      */
-    public MainFrame()
+    public MainWindow()
     {
         setTitle("SUDOKU");
         setSize(400, 400);
@@ -30,5 +33,9 @@ public class MainFrame extends JFrame {
      */
     public void closeWindow() {
         setVisible(false);
+    }
+
+    private void drawBoard() {
+        GridLayout grid = new GridLayout(Sudoku.BOARD_SIZE, Sudoku.BOARD_SIZE);
     }
 }
