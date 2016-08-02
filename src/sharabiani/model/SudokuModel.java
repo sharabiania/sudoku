@@ -1,5 +1,7 @@
 package sharabiani.model;
 
+import java.util.Random;
+
 /**
  * Created by Ali Sharabiani on 2016-08-01.
  */
@@ -31,5 +33,16 @@ public class SudokuModel {
         return board;
     }
 
+    public void generatePuzzle() {
+        Random random = new Random();
+        for(int i = 0; i < BOARD_SIZE; i++){
+            for(int j = 0; j < BOARD_SIZE; j++) {
+                int randomNumber = random.nextInt(10);
+                board[i][j] = randomNumber;
+            }
+        }
+
+
+    }
 
 }

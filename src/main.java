@@ -12,6 +12,7 @@ public class main {
      */
     public static void main(String args[]){
         SudokuModel model = new SudokuModel();
+        model.generatePuzzle();
         MainView frame = new MainView();
 
         frame.showWindow(model.getBoard(), SudokuModel.BOARD_SIZE);
