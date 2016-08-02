@@ -34,15 +34,12 @@ public class SudokuModel {
     }
 
     public void generatePuzzle() {
-        Random random = new Random();
-        for(int i = 0; i < BOARD_SIZE; i++){
-            for(int j = 0; j < BOARD_SIZE; j++) {
-                int randomNumber = random.nextInt(10);
-                board[i][j] = randomNumber;
+        
+        for (int i = 0; i < BOARD_SIZE; i++) {
+            for (int j = 0; j < BOARD_SIZE; j++) {
+                 board[i][j] = ((i + 1) * 10) + (j + 1) ;
             }
         }
-
-
     }
 
 }
