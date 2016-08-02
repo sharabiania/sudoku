@@ -1,2 +1,5 @@
 #ignore the output directory.
-out/
+out/*
+
+#ignore the .idea folder which IntelliJ has created.
+.idea/*
