@@ -105,23 +105,23 @@ public class MainView extends JFrame {
                             if (i < 3)
                                 box1.add(label);
                             else if (i >= 3 && i < 6)
-                                box2.add(label);
+                                box4.add(label);
                             else if (i >= 6)
-                                box3.add(label);
+                                box7.add(label);
                         }
                         else if(j >=3 && j < 6) {
                             if (i < 3)
-                                box4.add(label);
+                                box2.add(label);
                             else if (i >= 3 && i < 6)
                                 box5.add(label);
                             else if (i >= 6)
-                                box6.add(label);
+                                box8.add(label);
                         }
                         else{
                             if (i < 3)
-                                box7.add(label);
+                                box3.add(label);
                             else if (i >= 3 && i < 6)
-                                box8.add(label);
+                                box6.add(label);
                             else if (i >= 6)
                                 box9.add(label);
                         }
@@ -134,23 +134,23 @@ public class MainView extends JFrame {
                             if (i < 3)
                                 box1.add(textField);
                             else if (i >= 3 && i < 6)
-                                box2.add(textField);
+                                box4.add(textField);
                             else if (i >= 6)
-                                box3.add(textField);
+                                box7.add(textField);
                         }
                         else if(j >=3 && j < 6) {
                             if (i < 3)
-                                box4.add(textField);
+                                box2.add(textField);
                             else if (i >= 3 && i < 6)
                                 box5.add(textField);
                             else if (i >= 6)
-                                box6.add(textField);
+                                box8.add(textField);
                         }
                         else{
                             if (i < 3)
-                                box7.add(textField);
+                                box3.add(textField);
                             else if (i >= 3 && i < 6)
-                                box8.add(textField);
+                                box6.add(textField);
                             else if (i >= 6)
                                 box9.add(textField);
                         }
