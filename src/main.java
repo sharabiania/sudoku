@@ -1,4 +1,5 @@
 import sharabiani.model.SudokuModel;
+import sharabiani.model.SudokuPuzzle;
 import sharabiani.view.MainView;
 
 /**
@@ -11,10 +12,10 @@ public class main {
      * @param args command line arguments.
      */
     public static void main(String args[]){
-        SudokuModel model = new SudokuModel();
-        model.generatePuzzle();
-        MainView frame = new MainView();
 
-        frame.showWindow(model.getBoard(), SudokuModel.BOARD_SIZE);
+
+        MainView frame = new MainView();
+        SudokuPuzzle test = new SudokuPuzzle(1);
+        frame.showWindow(test.getPuzzle(), SudokuModel.BOARD_SIZE);
     }
 }

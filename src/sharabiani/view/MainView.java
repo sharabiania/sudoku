@@ -22,7 +22,7 @@ public class MainView extends JFrame {
         setTitle("SUDOKU");
         setSize(WINDOW_SIZE, WINDOW_SIZE);
         setLocationRelativeTo(null);
-
+        setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
     }
 
     /**
